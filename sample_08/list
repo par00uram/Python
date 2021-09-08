@@ -36,3 +36,11 @@ print(min(lst))
 lst=[62,83,837,73,839,82]
 lst.sort()
 print(lst[-2])
+
+
+lst=[62,83,837,73,839,82]
+lst1=set(lst)
+lst1.remove(max(lst1))
+print(lst)
+print(list(lst1))
+print(max(lst1))
