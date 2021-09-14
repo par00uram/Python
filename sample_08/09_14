@@ -1,0 +1,33 @@
+str="   Hello ,python . programming,"
+a=str.strip(" ")
+print(a)
+a=str.split(" ")
+print(a)
+a="#".join(str)
+print(a)
+a=str.lower()
+print(a)
+a=str.upper()
+print(a)
+a=str.isupper()
+print(a)
+
+
+s="PyToN"
+a=s.swapcase()
+print(a)
+
+
+s="python"
+a=s.zfill(10)
+print(a)
+
+
+str="hello ,PYthon . programming,"
+a=str.capitalize()
+print(a)
+
+
+str="   Hello ,pYthon . programming,"
+a=str.casefold()
+print(a)
