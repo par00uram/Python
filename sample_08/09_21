@@ -1,0 +1,32 @@
+def function_1():
+    print("Hello")
+function_1()
+
+
+def function(name,age):
+    print("my name is",name,"and a im",age)
+function("parshuram",19)
+
+
+
+def function(*names):
+    for name in names:
+        print("Hello",name)
+function("nimesh","omkar","prasad","darshan")
+
+
+def function(num):
+    if num>0:
+        print("positive")
+    elif num==0:
+        print("zero")
+    else:
+        print("nagative")
+num1=int(input("enter a number:"))
+function(num1)
+
+
+def fun(*l):
+    return l[::-1]
+l=[1,2,3,4,5]
+print(fun(*l))
