@@ -1,0 +1,26 @@
+def length(str):
+    counter = 0
+    for s in str:
+        counter = counter+1
+    print("Length of the input string is:", counter)
+str=input("enter:")
+length(str)
+
+
+def vowel(x):
+    if x == "a"or x =="e" or x=="i" or x == "o" or x=="u":
+        return "True"
+    else:
+        return "False "
+a = input ("Enter:- ")
+print (vowel(a))
+
+
+lst=[1,2,3,4,5,6,7]
+x=lambda a:"true" if a in lst else "false"
+print(x(10))
+
+
+lst=[1,11,22,33,111,222,333,444]
+a=filter(lambda x: x<100 ,lst)
+print(list(a))
